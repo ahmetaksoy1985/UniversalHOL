@@ -9,9 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Page.BottomAppBar>
         <CommandBar>
-            <CommandBar.SecondaryCommands>
-                <AppBarButton Label="about" Click="AppBarButton_Click_1"/>
-            </CommandBar.SecondaryCommands>
             <AppBarButton Icon="List" Label="ingredients">
                 <AppBarButton.Flyout>
                     <Flyout>

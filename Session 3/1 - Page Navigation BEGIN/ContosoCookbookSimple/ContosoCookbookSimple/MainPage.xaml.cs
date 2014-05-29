@@ -55,16 +55,5 @@ namespace ContosoCookbookSimple
 
             IngredientsListBox.ItemsSource = ingredients;
         }
-
-        private void AppBarButton_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(AboutPage)); 
-        }
-
     }
 }

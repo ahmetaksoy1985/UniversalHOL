@@ -35,19 +35,6 @@ namespace ContosoCookbookSimple
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
-            Windows.Phone.UI.Input.HardwareButtons.BackPressed += HardwareButtons_BackPressed;
-        }
-
-
-        private void HardwareButtons_BackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
-        {
-
-            Frame rootFrame = Window.Current.Content as Frame;
-            if (rootFrame != null && rootFrame.CanGoBack)
-            {
-                rootFrame.GoBack();
-                e.Handled = true;
-            }
         }
 
         /// <summary>
@@ -58,7 +45,6 @@ namespace ContosoCookbookSimple
         /// <param name="e">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
-            
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
