@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="AdaptiveUI.Pages.ResponsiveUI"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AdaptiveUI.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="15,0,15,0">
+        <Grid.RowDefinitions>   
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Viewbox Grid.Row="0">
+            <TextBlock x:Name="HelloTextBox" Text="This text fills in." />
+        </Viewbox>
+        <GridView x:Name="NumberGrid" Grid.Row="1" Background="Silver">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="75"
+                          Height="75"
+                          Margin="2"
+                          Background="DarkGray">
+                        <TextBlock HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   FontSize="24"
+                                   Foreground="DarkRed"
+                                   Text="{Binding}" />
+                    </Grid>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
+</Page>

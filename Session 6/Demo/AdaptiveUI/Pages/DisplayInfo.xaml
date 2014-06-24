@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="AdaptiveUI.Pages.DisplayInfo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AdaptiveUI.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="15,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <Viewbox Stretch="Uniform" Grid.Row="0" HorizontalAlignment="Left">
+            <TextBlock Text="DisplayInfo" Style="{StaticResource BodyTextBlockStyle}" HorizontalAlignment="Left"/>
+        </Viewbox>
+        <StackPanel Grid.Row="1">
+            <TextBlock Name="NativeOrientation"
+                   Style="{StaticResource BaseTextBlockStyle}"
+                   Text="NativeOrientation" />
+            <TextBlock Name="NativeOrientationText" Style="{StaticResource BodyTextBlockStyle}" />
+            <TextBlock Name="CurrentOrientation"
+                   Style="{StaticResource BaseTextBlockStyle}"
+                   Text="CurrentOrientation" />
+            <TextBlock Name="CurrentOrientationText" Style="{StaticResource BaseTextBlockStyle}" />
+            <TextBlock Name="RawPixelsPerViewPixel"
+                   Style="{StaticResource BaseTextBlockStyle}"
+                   Text="RawPixelsPerViewPixel" />
+            <TextBlock Name="RawPixelsPerViewPixelText" Style="{StaticResource BaseTextBlockStyle}" />
+            <TextBlock Name="ViewPixelsDpi"
+                   Style="{StaticResource BaseTextBlockStyle}"
+                   Text="ViewPixelsDpi" />
+            <TextBlock Name="ViewPixelsDpiText" Style="{StaticResource BaseTextBlockStyle}" />
+            <TextBlock Name="RawDpiX"
+                   Style="{StaticResource BaseTextBlockStyle}"
+                   Text="RawDpiX" />
+            <TextBlock Name="RawDpiXText" Style="{StaticResource BaseTextBlockStyle}" />
+            <TextBlock Name="RawDpiY"
+                   Style="{StaticResource BaseTextBlockStyle}"
+                   Text="RawDpiY" />
+            <TextBlock Name="RawDpiYText" Style="{StaticResource BaseTextBlockStyle}" />
+        </StackPanel>
+    </Grid>
+</Page>

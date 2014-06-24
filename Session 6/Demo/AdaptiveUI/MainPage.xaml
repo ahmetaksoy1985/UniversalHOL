@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="AdaptiveUI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AdaptiveUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Adaptive UI" Grid.Row="0" Style="{StaticResource HeaderTextBlockStyle}"/>
+        <StackPanel Grid.Row="1">
+            <Button x:Name="ScaleFactor"
+                Width="200"
+                HorizontalAlignment="Center"
+                Click="ScaleFactorOnClick">
+                Scale Factor Demo
+            </Button>
+            <Button x:Name="ResponsiveUi"
+                Width="200"
+                HorizontalAlignment="Center"
+                Click="ResponsiveUiOnClick">
+                Responsive UI Demo
+            </Button>
+            <Button x:Name="ContentOverflow"
+                Width="200"
+                HorizontalAlignment="Center"
+                Click="ContentOverflowOnClick"
+
+                >
+                Content Overflow
+            </Button>
+            <Button x:Name="DisplayInfo"
+                Width="200"
+                HorizontalAlignment="Center" Click="DisplayInfoOnClick"
+                >
+                Display Information
+            </Button>
+        </StackPanel>
+        
+    </Grid>
+</Page>
