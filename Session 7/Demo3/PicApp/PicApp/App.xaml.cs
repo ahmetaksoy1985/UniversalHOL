@@ -1,4 +1,4 @@
-﻿#define USE_SUSPENSION_MANAGER
+﻿//#define USE_SUSPENSION_MANAGER
 
 namespace PicApp
 {
