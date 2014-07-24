@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid 
+        Background="Yellow">
+        <Grid.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="Foreground" Value="Black"/>
+            </Style>
+        </Grid.Resources>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Text="App Has Been Running For"
+                   FontSize="32"/>
+        <Viewbox Margin="48" Grid.Row="1"
+                 HorizontalAlignment="Center"
+                 VerticalAlignment="Center">
+            <TextBlock x:Name="txtValue"
+                       Text="Not Set"/>
+        </Viewbox>
+        <TextBlock Grid.Row="2" x:Name="txtPreviousExecutionState"/>
+    </Grid>
+</Page>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+
+  <Identity Name="1680c91a-e5b9-46a8-9983-bdb9a9c7015a"
+            Publisher="CN=Mike"
+            Version="1.0.0.0" />
+
+  <mp:PhoneIdentity PhoneProductId="1680c91a-e5b9-46a8-9983-bdb9a9c7015a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>App1</DisplayName>
+    <PublisherDisplayName>Mike</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="App1.App">
+        <m2:VisualElements
+            DisplayName="App1"
+            Square150x150Logo="Assets\Logo.png"
+            Square30x30Logo="Assets\SmallLogo.png"
+            Description="App1"
+            ForegroundText="light"
+            BackgroundColor="#464646">
+            <m2:DefaultTile Wide310x150Logo="Assets\WideLogo.png"/>
+            <m2:SplashScreen Image="Assets\SplashScreen.png" />
+            <m2:ApplicationView MinWidth="width320"/> <!--Used in XAML Designer. DO NOT REMOVE-->
+        </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

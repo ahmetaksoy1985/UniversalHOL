@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="PicApp.ImagePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PicApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Name="btnEdit" Click="OnEdit" Icon="Edit" Label="edit"
+                          Visibility="{Binding IsReadVisible}"/>
+            <AppBarButton x:Name="btnKeep" Click="OnKeep" Icon="Accept" Label="keep" Visibility="{Binding IsEditVisible}"/>
+            <AppBarButton x:Name="btnDiscard" Click="OnDiscard" Icon="Cancel" Label="discard" Visibility="{Binding IsEditVisible}"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid 
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+        Margin="0,0,0,76">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Image Source="{Binding DataItem.ImageUri}"
+               Stretch="Fill"/>
+        <TextBlock Grid.Row="1"
+                   TextAlignment="Center"
+                   FontSize="18"
+                   Margin="12"
+                   Text="{Binding DataItem.Title}"
+                   Visibility="{Binding IsReadVisible}"/>
+        <TextBox  Grid.Row="1"
+                   TextAlignment="Center"
+                   FontSize="18"
+                   Margin="12"
+                 Visibility="{Binding IsEditVisible}"
+                  Text="{Binding DataItem.Title,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+    </Grid>
+</Page>

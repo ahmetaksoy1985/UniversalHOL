@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="qps-ploc" original="ContosoCookbook_Multilingual.prilog.xml" tool-id="MultilingualAppToolkit" product-name="ContosoCookbook" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.0.1200.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resources">
+        <trans-unit id="Resources\VersionText\Text" translate="yes" xml:space="preserve">
+          <source>Version:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B69AC][!!_Vęѓśįóή:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\RegionsPageHeader" translate="yes" xml:space="preserve">
+          <source>regions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BDF06][!!_ŕèģìóйś_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\RecipeIngredientsPivotItem\Header" translate="yes" xml:space="preserve">
+          <source>ingredients</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[55C7E][!!_ìήģѓêðîêйţş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\RecipeDetailsPivotItem\Header" translate="yes" xml:space="preserve">
+          <source>recipe</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[44527][!!_řéĉįρè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\PublishedByText\Text" translate="yes" xml:space="preserve">
+          <source>Published by:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[71AE0][!!_Ρùвĺíšђéð ъУ:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\PivotItem2\Header" translate="yes" xml:space="preserve">
+          <source>item2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4BA2D][!!_ìťèm2_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\PivotItem1\Header" translate="yes" xml:space="preserve">
+          <source>item1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B2E88][!!_ìтęм1_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\Pivot\Title" translate="yes" xml:space="preserve">
+          <source>CONTOSO COOKBOOK</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1D355][!!_ĊÕŇŤÒŞÔ ĈÒÓКβÕÓК_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\GroupRecipesPivotItem\Header" translate="yes" xml:space="preserve">
+          <source>recipes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C7EA1][!!_ŕéćîþèŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\AppVersion\Text" translate="yes" xml:space="preserve">
+          <source>Version 1.0</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B035D][!!_Vêŕšìõй 1.0_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\AppRights\Text" translate="yes" xml:space="preserve">
+          <source>Copyright © Microsoft 2014</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[046B5][!!_Ċõρÿѓįğнť © Μìĉŕòşòƒť 2014_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\AppName\Text" translate="yes" xml:space="preserve">
+          <source>CONTOSO COOKBOOK</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[75951][!!_ĊÓŇТÓŠÔ ĊÕÒКβÒÓĶ_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\AppLimitation\Text" translate="yes" xml:space="preserve">
+          <source>All Rights Reserved</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[32E22][!!_Àļļ Ѓíğħтŝ Ŗęśéŕνèđ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\AppDisplayName" translate="yes" xml:space="preserve">
+          <source>Contoso Cookbook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[07E1E][!!_Ćóйтõšõ Ĉóóкъòõķ_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\AppDescription" translate="yes" xml:space="preserve">
+          <source>The best recipes from around the world!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A77AA][!!_Тћę Бéŝţ řęċįρèş ƒŕòм àѓõùήð ţĥè ẁóřĺđ!_!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutPageHeader\Text" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3FACB][!!_áвõùт_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutButton\Label" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[225DD][!!_ãвóµť_!!]</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
